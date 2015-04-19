@@ -1,0 +1,27 @@
+程式設計﹝二﹞
+Project1-report
+
+系級：資訊 106 乙班
+學號：F74022036 
+姓名：林榮興
+
+程式解說：  
+我的程式使用 Sudoku 的Class,裡面主要包含四個function主要為ReadIn() , Sudoku_Solve(), Solve() , GiveQuestion() , 和一個constructor Sudoku () 組成, 再創造題目時使用到GiveQuestion() ,解題時用到ReadIn() , Sudoku_Solve(), Solve()。
+
+
+UML：  
+------------------Sudoku---------------
+-n[12][12] : Int
+-ans_count : Int
+-correct [12][12] : Int
+<< constructor >> + Sudoku ( )
+---------------------------------------
++ReadIn() 
++Solve() 
++Sudoku_Solve() 
++get_count () : Int;
++compare_row( num: Int, row : Int) :Int
++compar_column(num: Int , column : Int) :Int
++compar_all(num: Int, row : Int, column : Int) :Int
++GiveQuestion() ;
+
